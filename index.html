@@ -1,20 +1,98 @@
-<!DOCTYPE html 
+<!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="" /> 
-<meta name="keywords" content=""/> 
-<title>ninestore</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+<meta name="Description" content="" /> 
+<meta name="Keywords" content="" /> 
+<script type="text/javascript" src=""></script>
+<link type="text/css" href="css/ninestore-all.css" rel="stylesheet" />
+<title>九元店</title>
 </head>
 <body>
-<div class="header">
-<div class="usrinf"></div>
+<div class="site-container">
+<div class="site-header">
+	<div class="site-nav">
+		<ul>
+			<li><h1></h1></li>
+			<li><a href="">首页</a></li>
+			<li><a href="">买信息</a></li>
+			<li><a href="">卖信息</a></li>
+			<li><a href="">随便看看</a></li>
+			<li><a href="">热门信息</a></li>
+		</ul>
+	</div>
+	<div class="site-settings">
+		<div class="site-welcome">你好,{$USERNAME}</div>
+		<ul>
+			<li><a href="">个人中心</a></li>
+			<li><a href="">站内消息</a></li>
+		</ul>
+	</div>
 </div>
-<div class="nav"><ul class="nav"></ul><ul class="act"></ul></div>
-<div class="content"><div></div><div class="search"></div></div>
-<div class="content"></div>
-<div class="footer"></div>
+<div class="site-quick">
+	<div class="site-ad"></div>
+	<div class="site-search">
+		<div class="site-bar">
+			<h2 class="site-title">快速搜索</h2>
+		</div>
+		<div class="site-form">
+			<div>
+				<div>所在城市</div>
+				<div></div>
+			</div>
+			<div>
+				<div>关键词</div>
+				<div></div>
+			</div>
+			<div>
+				<div>类别</div>
+				<div></div>
+			</div>
+			<div>
+				<div>价格</div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="site-content">
+	<div class="site-info">
+		<ul class="site-info-tab">
+			<li>最新买消息</li>
+			<li>最新卖消息</li>
+			<li>最新分享</li>
+		</ul>
+		<div class="site-info-list">
+			<!-- 首页信息列表模板 start-->
+			<div class="site-list-template">
+				<div class="site-template-img"><img src="" alt="{$IMG}" /></div>
+				<div class="site-title-area">
+					<div>
+						<div class="site-template-nickname">{$NICKNAME}</div>
+						<div class="site-template-title">{$TITLE}</div>
+					</div>
+					<div class="site-template-content">{$CONTENT}</div>
+				</div>
+				<div class="site-price-area">
+					<div class="site-template-city">{$CITY}</div>
+					<div class="site-template-price">{$PRICE}</div>
+				</div>
+			</div>
+			<!-- 首页信息列表模板 end-->
+		</div>
+	</div>
+	<div class="site-classic">
+		<div class="site-bar">
+			<h2 class="site-title">热门分类</h2>
+			<div class="site-more">更多分类</div>	
+		</div>
+		<div class="site-hot"></div>
+	</div>
+</div>
+<div class="site-footer"></div>
+</div>
 </body>
 </html>
