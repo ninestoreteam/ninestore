@@ -1,0 +1,71 @@
+/* tag */
+html,body,a,div,span,ul,li {
+	color: #000;
+	display: block;
+	font-size: 12px;
+	line-height: 23px;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+}
+
+/* common */
+.site-container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* header */
+.site-header {
+	height: 30px;
+}
+.site-header li {
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.site-nav {
+	float: left;
+}
+.site-welcome {
+	float: left;
+	margin-left: 350px;
+}
+.site-settings {
+	float: right;
+}
+.site-settings li {
+	font-size: 12px;	
+}
+
+/* body */
+.site-body {}
+
+/* body common */
+.site-box {}
+.site-box-title {}
+.site-box-content {}
+
+/* body top */
+.site-body-top {}
+.site-ad {}
+.site-qsearch {}
+
+/* body bottom */
+.site-body-bottom {}
+.site-info {}
+.site-tab {}
+.site-tab-list {}
+.site-side {}
+.site-shortcuts {}
+.site-hot {}
+
+/* footer */
+.site-footer {}
