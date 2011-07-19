@@ -29,14 +29,35 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <div class="site-body site-container">
 	<div class="site-body-top">
 		<div class="site-ad">
-			<img width="500" height="180" src="" alt="" />
+			<img width="500" height="180" src="{$URL}" alt="{$DESC}" />
 		</div>
 		<div class="site-qsearch"></div>
 	</div>
 	<div class="site-body-bottom">
 		<div class="site-info">
-			<ul class="site-tab"></ul>
-			<ul class="site-tab-list"></ul>
+			<ul class="site-tab">
+				<li><a href="">最新买消息</a></li>
+				<li><a href="">最新卖消息</a></li>
+				<li><a href="">最新共享</a></li>
+			</ul>
+			<ul class="site-tab-list">
+				<li>
+					<div class="info-template">
+						<div class="left">
+							<img width="48" height="48" src="{$URL}" alt="{$DESC}" />
+						</div>
+						<div class="center">
+							<div class="nickname">{$NICKNAME}</div>
+							<div class="title">{$TITLE}</div>
+							<div class="content">{$CONTENT}</div>
+						</div>
+						<div class="right">
+							<div class="city">{$CITY}</div>
+							<div class="price">{$PRICE}</div>	
+						</div>
+					</div>
+				</li>
+			</ul>
 		</div>
 		<div class="site-side">
 			<div class="site-shortcuts"></div>
