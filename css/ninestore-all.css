@@ -20,6 +20,15 @@ li {
 	width: 960px;
 	margin: 0 auto;
 }
+.left {
+	float: left;
+}
+.center {
+	float: left;
+}
+.right {
+	float: right;
+}
 
 /* header */
 .site-header {
@@ -28,8 +37,7 @@ li {
 .site-header li {
 	font-size: 14px;
 	line-height: 30px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 0px 10px;
 }
 .site-nav {
 	float: left;
@@ -48,22 +56,61 @@ li {
 /* body */
 .site-body {}
 
-/* body common */
+/* body common-box */
 .site-box {}
 .site-box-title {}
 .site-box-content {}
+/* body common-template */
+.info-template {}
+.info-template .left {
+	margin: 10px;
+}
+.info-template .center {
+	margin: 0px 10px;
+}
+.info-template .right {
+	margin: 0px 50px;
+}
+.info-template .nickname {}
+.info-template .title {
+	float: left;
+}
+.info-template .content {}
+.info-template .city {}
+.info-template .price {}
 
 /* body top */
-.site-body-top {}
+.site-body-top {
+	height: 180px;
+}
 .site-ad {}
 .site-qsearch {}
 
 /* body bottom */
 .site-body-bottom {}
-.site-info {}
-.site-tab {}
-.site-tab-list {}
-.site-side {}
+.site-info {
+	float: left;
+	width: 650px;
+}
+.site-tab {
+	border-left: 1px solid #ccc;
+	height: 26px;
+}
+.site-tab li {
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 26px;
+	padding: 0px 30px;
+}
+.site-tab-list {
+	border-bottom: 1px solid #ccc;
+}
+.site-tab-list li {
+	width: 100%;
+}
+.site-side {
+	float: left;
+}
 .site-shortcuts {}
 .site-hot {}
 
