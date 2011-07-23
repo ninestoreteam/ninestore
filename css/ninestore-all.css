@@ -32,25 +32,27 @@ li {
 
 /* header */
 .site-header {
+	background-color: #005EAC;
 	height: 30px;
 }
-.site-header li {
-	font-size: 14px;
+.site-header a,span {
+	color: #fff;
 	line-height: 30px;
+}
+.site-header a {
+	font-size: 14px;
+}
+.site-header li {
 	margin: 0px 10px;
 }
 .site-nav {
-	float: left;
 }
 .site-welcome {
-	float: left;
 	margin-left: 350px;
 }
 .site-settings {
-	float: right;
 }
 .site-settings li {
-	font-size: 12px;	
 }
 
 /* body */
@@ -73,7 +75,6 @@ li {
 }
 .info-template .nickname {}
 .info-template .title {
-	float: left;
 }
 .info-template .content {}
 .info-template .city {}
@@ -89,7 +90,6 @@ li {
 /* body bottom */
 .site-body-bottom {}
 .site-info {
-	float: left;
 	width: 650px;
 }
 .site-tab {
@@ -109,7 +109,6 @@ li {
 	width: 100%;
 }
 .site-side {
-	float: left;
 }
 .site-shortcuts {}
 .site-hot {}
