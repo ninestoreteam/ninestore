@@ -6,7 +6,6 @@ html,body,a,div,span,ul,li {
 	line-height: 23px;
 	margin: 0px;
 	padding: 0px;
-	text-decoration: none;
 }
 ul {
 	list-style-type: none;
@@ -32,20 +31,24 @@ li {
 
 /* header */
 .site-header {
+	border-radius: 0px 0px 8px 8px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
 	background-color: #005EAC;
 	height: 30px;
 }
 .site-header a,span {
 	color: #fff;
 	line-height: 30px;
-}
-.site-header a {
-	font-size: 14px;
+	text-decoration: none;
 }
 .site-header li {
 	margin: 0px 10px;
 }
 .site-nav {
+}
+.site-nav a {
+	font-size: 14px;
 }
 .site-welcome {
 	margin-left: 350px;
@@ -63,9 +66,12 @@ li {
 .site-box-title {}
 .site-box-content {}
 /* body common-template */
-.info-template {}
+.info-template {
+	border-bottom: 1px dotted #ccc;
+	height: 80px;
+}
 .info-template .left {
-	margin: 10px;
+	margin: 5px;
 }
 .info-template .center {
 	margin: 0px 10px;
@@ -73,37 +79,51 @@ li {
 .info-template .right {
 	margin: 0px 50px;
 }
-.info-template .nickname {}
+.info-template .photo {
+	width: 98px;
+	height: 68px;
+	border: 1px solid #ccc;
+}
+.info-template .author {
+	display: inline;
+}
 .info-template .title {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
 }
-.info-template .content {}
-.info-template .city {}
-.info-template .price {}
-
-/* body top */
-.site-body-top {
-	height: 180px;
+.info-template .content {
+	margin: 0px;
 }
-.site-ad {}
-.site-qsearch {}
+.info-template .city {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.info-template .price {
+	font-size: 14px;
+	font-weight: bold;
+}
 
-/* body bottom */
-.site-body-bottom {}
+/* body main */
+.site-body-main {}
 .site-info {
 	width: 650px;
 }
 .site-tab {
-	border-left: 1px solid #ccc;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
 	height: 26px;
 }
 .site-tab li {
-	border-top: 1px solid #ccc;
-	border-right: 1px solid #ccc;
+	border-right: 1px dotted #ccc;
 	height: 26px;
 	padding: 0px 30px;
 }
+.site-tab li.actived {
+	font-weight: bold;
+}
 .site-tab-list {
-	border-bottom: 1px solid #ccc;
 }
 .site-tab-list li {
 	width: 100%;
