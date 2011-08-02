@@ -1,0 +1,21 @@
+html,body,a,div,span,ul,li {
+	color: #000;
+	display: block;
+	font-size: 12px;
+	line-height: 23px;
+	margin: 0px;
+	padding: 0px;
+}
+input,button {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+}

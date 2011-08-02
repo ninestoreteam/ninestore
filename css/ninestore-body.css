@@ -1,65 +1,26 @@
-/* tag */
-html,body,a,div,span,ul,li {
-	color: #000;
-	display: block;
+.site-body {
+	margin-top: 30px;
+	padding: 0px 10px;
+}
+.site-shortcut .description {
 	font-size: 12px;
 	line-height: 23px;
-	margin: 0px;
-	padding: 0px;
+	margin-left: 40px;
 }
-ul {
-	list-style-type: none;
+.site-shortcut .iwill {
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
 }
-li {
-	float: left;
+.site-shortcut input {
+	border: 1px solid #333;
+	height: 25px;
+	width: 400px;
 }
-
-/* common */
-.site-container {
-	width: 960px;
-	margin: 0 auto;
-}
-.left {
-	float: left;
-}
-.center {
-	float: left;
-}
-.right {
-	float: right;
-}
-
-/* header */
-.site-header {
-	border-radius: 0px 0px 8px 8px;
-	-webkit-border-radius: 0px 0px 8px 8px;
-	-moz-border-radius: 0px 0px 8px 8px;
-	background-color: #005EAC;
+.site-shortcut button {
+	border: 1px solid #333;
 	height: 30px;
 }
-.site-header a,span {
-	color: #fff;
-	line-height: 30px;
-	text-decoration: none;
-}
-.site-header li {
-	margin: 0px 10px;
-}
-.site-nav {
-}
-.site-nav a {
-	font-size: 14px;
-}
-.site-welcome {
-	margin-left: 350px;
-}
-.site-settings {
-}
-.site-settings li {
-}
-
-/* body */
-.site-body {}
 
 /* body common-box */
 .site-box {}
@@ -132,6 +93,3 @@ li {
 }
 .site-shortcuts {}
 .site-hot {}
-
-/* footer */
-.site-footer {}

@@ -1,0 +1,27 @@
+.site-header {
+	height: 30px;
+}
+.site-header a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+}
+.site-header li {
+	margin: 0px 10px;
+}
+.site-nav {
+	border-radius: 0px 0px 8px 8px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	background-color: #005EAC;
+}
+.site-nav .welcome {
+	color: #fff;
+	display: inline;
+	font-size: 14px;
+	line-height: 30px;
+}
+.site-nav .settings {
+	display: inline;
+	text-decoration: underline;	
+}
