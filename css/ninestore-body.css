@@ -1,6 +1,10 @@
 .site-body {
+	background: #f00;
 	margin-top: 30px;
 	padding: 0px 10px;
+}
+.site-body-main {
+	width: 620px;
 }
 .site-shortcut .description {
 	font-size: 12px;
@@ -11,85 +15,94 @@
 	display: inline;
 	font-size: 16px;
 	font-weight: bold;
+	vertical-align: bottom;
 }
 .site-shortcut input {
 	border: 1px solid #333;
 	height: 25px;
-	width: 400px;
+	vertical-align: middle;
+	width: 490px;
 }
 .site-shortcut button {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	box-shadow: 1px 1px 4px #999;
+	-webkit-box-shadow: 1px 1px 4px #999;
+	-moz-box-shadow: 1px 1px 4px #999;
+    background:-moz-linear-gradient(top, #ddd, #fff);
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ddd), to(#fff));
+    background:-o-linear-gradient(top, #ddd, #fff);
 	border: 1px solid #333;
-	height: 30px;
-}
-
-/* body common-box */
-.site-box {}
-.site-box-title {}
-.site-box-content {}
-/* body common-template */
-.info-template {
-	border-bottom: 1px dotted #ccc;
-	height: 80px;
-}
-.info-template .left {
-	margin: 5px;
-}
-.info-template .center {
-	margin: 0px 10px;
-}
-.info-template .right {
-	margin: 0px 50px;
-}
-.info-template .photo {
-	width: 98px;
-	height: 68px;
-	border: 1px solid #ccc;
-}
-.info-template .author {
-	display: inline;
-}
-.info-template .title {
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 30px;
-}
-.info-template .content {
-	margin: 0px;
-}
-.info-template .city {
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 30px;
-}
-.info-template .price {
-	font-size: 14px;
-	font-weight: bold;
-}
-
-/* body main */
-.site-body-main {}
-.site-info {
-	width: 650px;
+	height: 27px;
+	vertical-align: middle;
+	width: 80px;
 }
 .site-tab {
 	border-top: 1px dotted #ccc;
 	border-bottom: 1px dotted #ccc;
 	height: 26px;
+	margin-top: 10px;
 }
 .site-tab li {
 	border-right: 1px dotted #ccc;
 	height: 26px;
-	padding: 0px 30px;
+	padding: 0px 10px;
 }
-.site-tab li.actived {
-	font-weight: bold;
+.site-tab a {
+	line-height: 26px;
 }
-.site-tab-list {
+.site-tab .actived {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: #005EAC;
+	color: #fff;
+	padding: 0px 5px;
+	margin-top: 3px;
+	line-height: 20px;
 }
-.site-tab-list li {
+.site-list li {
 	width: 100%;
 }
-.site-side {
+/* template-msg begin */
+.template-msg {
+	border-bottom: 1px dotted #ccc;
+	height: 80px;
 }
-.site-shortcuts {}
-.site-hot {}
+.template-msg .left {
+	margin: 5px;
+}
+.template-msg .center {
+	margin: 0px 10px;
+}
+.template-msg .right {
+	margin: 0px 50px;
+}
+.template-msg .photo {
+	width: 98px;
+	height: 68px;
+	border: 1px solid #ccc;
+}
+.template-msg .author {
+	display: inline;
+}
+.template-msg .title {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.template-msg .content {
+	margin: 0px;
+}
+.template-msg .city {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.template-msg .price {
+	font-size: 14px;
+	font-weight: bold;
+}
+/* template-msg end */
+.site-body-side {}
