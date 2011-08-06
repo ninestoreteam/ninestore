@@ -6,6 +6,9 @@ html,body,a,div,span,ul,li {
 	margin: 0px;
 	padding: 0px;
 }
+body {
+	background: #dce6e3;
+}
 input,button {
 	margin: 0px;
 	padding: 0px;

@@ -1,9 +1,11 @@
 .site-body {
-	background: #f00;
+	background: #fff;
 	margin-top: 30px;
 	padding: 0px 10px;
 }
 .site-body-main {
+	border-right: 1px dotted #ccc;
+	padding: 0px 15px;
 	width: 620px;
 }
 .site-shortcut .description {
@@ -51,12 +53,13 @@
 }
 .site-tab a {
 	line-height: 26px;
+	text-decoration: underline;
 }
 .site-tab .actived {
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	background: #005EAC;
+	background: #008CC6;
 	color: #fff;
 	padding: 0px 5px;
 	margin-top: 3px;
@@ -105,4 +108,49 @@
 	font-weight: bold;
 }
 /* template-msg end */
-.site-body-side {}
+.site-body-side {
+	padding: 0px 15px;
+	width: 279px;
+}
+.site-search {
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	background: #d8f5ff;
+	padding: 10px 10px;
+}
+.site-search .wrap {
+	height: 29px;
+}
+.site-search input {
+	border: 1px solid #b7bbca;
+	float: left;
+	height: 27px;
+	vertical-align: middle;
+	width: 223px;
+}
+.site-search button {
+	background: url(../img/btn-go.gif);
+	border: 0px;
+	float: left;
+	height: 29px;
+	vertical-align: middle;
+	width: 34px;
+}
+.site-recent li {
+	float: none;
+}
+.site-recent {
+	padding-left: 20px;
+}
+.site-recent .title {
+	color: #94bdcb;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
+}
+.site-recent a {
+	color: #0065b2;
+	font-weight: bold;
+	font-size: 14px;
+}
