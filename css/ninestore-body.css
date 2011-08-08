@@ -1,7 +1,11 @@
 .site-body {
+	border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
 	background: #fff;
 	margin-top: 30px;
-	padding: 0px 10px;
+	overflow: hidden;
+	padding: 10px 10px;
 }
 .site-body-main {
 	border-right: 1px dotted #ccc;
@@ -68,46 +72,6 @@
 .site-list li {
 	width: 100%;
 }
-/* template-msg begin */
-.template-msg {
-	border-bottom: 1px dotted #ccc;
-	height: 80px;
-}
-.template-msg .left {
-	margin: 5px;
-}
-.template-msg .center {
-	margin: 0px 10px;
-}
-.template-msg .right {
-	margin: 0px 50px;
-}
-.template-msg .photo {
-	width: 98px;
-	height: 68px;
-	border: 1px solid #ccc;
-}
-.template-msg .author {
-	display: inline;
-}
-.template-msg .title {
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 30px;
-}
-.template-msg .content {
-	margin: 0px;
-}
-.template-msg .city {
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 30px;
-}
-.template-msg .price {
-	font-size: 14px;
-	font-weight: bold;
-}
-/* template-msg end */
 .site-body-side {
 	padding: 0px 15px;
 	width: 279px;
@@ -143,14 +107,48 @@
 .site-recent {
 	padding-left: 20px;
 }
-.site-recent .title {
-	color: #94bdcb;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 30px;
-}
 .site-recent a {
 	color: #0065b2;
 	font-weight: bold;
 	font-size: 14px;
 }
+/* template-buy-msg begin */
+.template-buy-msg {
+	border-bottom: 1px dotted #ccc;
+	height: 80px;
+}
+.template-buy-msg .left {
+	margin: 5px;
+}
+.template-buy-msg .center {
+	margin: 0px 10px;
+}
+.template-buy-msg .right {
+	margin: 0px 50px;
+}
+.template-buy-msg .photo {
+	width: 98px;
+	height: 68px;
+	border: 1px solid #ccc;
+}
+.template-buy-msg .author {
+	display: inline;
+}
+.template-buy-msg .title {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.template-buy-msg .content {
+	margin: 0px;
+}
+.template-buy-msg .city {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.template-buy-msg .price {
+	font-size: 14px;
+	font-weight: bold;
+}
+/* template-buy-msg end */
