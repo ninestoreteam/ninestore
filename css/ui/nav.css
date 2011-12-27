@@ -1,0 +1,19 @@
+.nine-nav-wrapper {
+	background: rgba(0, 0, 0, .7);
+
+	width: 100%;
+
+	position: fixed;
+}
+.nine-nav-container {
+	width: 800px;
+	height: 35px;
+
+	margin: 0 auto;
+}
+.nine-nav-logo {
+
+}
+.nine-nav-main {
+
+}
