@@ -1,0 +1,26 @@
+.nine-tab-wrapper {
+	background: #dee4e7;
+	margin: 0 auto;
+	width: 100%;
+
+	position: absolute;
+}
+.nine-tab-container {
+	height: 28px;
+	margin: 7px 7px 0px 7px;
+}
+.nine-tab-container li {
+	float: left;
+}
+.nine-tab-container a {
+	color: #2b4a78;
+	font-size: 14px;
+	line-height: 28px;
+	padding: 0 12px;
+
+	display: block;
+}
+.nine-tab-container a[selected="true"] {
+	background: #fff;
+	color: #000;
+}
