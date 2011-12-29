@@ -1,6 +1,5 @@
 .nine-nav-wrapper {
 	background: rgba(0, 0, 0, .7);
-
 	width: 100%;
 
 	position: fixed;
@@ -8,32 +7,28 @@
 .nine-nav-container {
 	width: 800px;
 	height: 35px;
-
 	margin: 0 auto;
-}
-.nine-nav-container a {
-	color: #fff;
-	font-size: 14px;
-
-	line-height: 35px;
-
-	margin: 0 12px;
 }
 .nine-nav-container h1 {
 	display: block;
 	float: left;
 }
+.nine-nav-container a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 35px;
+	margin: 0 12px;
+}
+.nine-nav-main li {
+	float: left;
+}
 .nine-nav-logo {
 	background: url(http://mat1.gtimg.com/www/mb/images/nav_logo111103.png) no-repeat;
 	text-indent: -9999px;
-
 	width: 160px;
 	height: 35px;
 
 	display: block;
-}
-.nine-nav-main li {
-	float: left;
 }
 .nine-nav-personal {
 	float: right;
@@ -41,6 +36,5 @@
 .nine-nav-welcome {
 	color: #fff;
 	font-size: 12px;
-
 	line-height: 35px;
 }
