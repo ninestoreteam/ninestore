@@ -1,0 +1,43 @@
+.nine-detail-wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nine-detail-left, .nine-detail-right {
+	float: left;
+}
+.nine-detail-left {
+	width: 200px;
+}
+.nine-detail-left img {
+	margin-left: 25px;
+	margin-top: 5px;
+}
+.nine-detail-left a {
+	line-height: 20px;
+	margin-left: 35px;
+}
+.nine-detail-right h2 {
+	margin: 10px 0px;
+}
+.nine-detail-right h2 span {
+	font-size: 14px;
+}
+.nine-detail-right ul span {
+	font-weight: bold;
+	line-height: 24px;
+	display: inline-block;
+	width: 70px;
+}
+.nine-detail-action {
+	margin: 10px 0px;
+}
+.nine-detail-action a {
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #666;
+	text-align: center;
+	line-height: 22px;
+	display: inline-block;
+	width: 100px;
+}
