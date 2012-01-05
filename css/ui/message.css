@@ -1,0 +1,31 @@
+.nine-message-list li {
+	height: 50px;
+	padding: 10px;
+}
+.nine-message-list img {
+	display: block;
+	float: left;
+}
+.nine-message-list span {
+	font-size: 14px;
+}
+.nine-message-list .nine-message-main {
+	margin-left: 10px;
+	float: left;
+} 
+.nine-message-main a {
+	font-size: 14px;
+}
+.nine-message-main h2 {
+	display: inline-block;
+}
+.nine-message-main p {
+	margin-top: 5px;
+}
+.nine-message-list .nine-message-left {
+	margin-left: 10px;
+	float: left;
+} 
+.nine-message-left span {
+	display: block;
+}
